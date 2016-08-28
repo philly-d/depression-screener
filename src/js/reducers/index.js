@@ -1,8 +1,9 @@
 import { combineReducers } from 'redux';
-import friendList from './friendList';
 
-const rootReducer = combineReducers({
-  friendList
-});
+// const rootReducer = combineReducers({
+// });
+function rootReducer(state={}, action) {
+    return state;
+}
 
 export default rootReducer;
